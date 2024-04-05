@@ -469,3 +469,49 @@ span {
 
     border: 3px solid #00c9bd;
 }
+
+.seccion-certificados {
+    display: none;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #000;
+    z-index: 999;
+}
+
+.d-item {
+    height: 680px;
+
+}
+  
+.d-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9); 
+    margin: auto;
+}
+  
+.title-1 {
+    color: #ffd342;
+    text-shadow: 1px 3px #c21212; }
+  
+.title-2 {
+    color: #000;
+    text-shadow: 1px 3px #fff; }
+  
+.title-3 {
+    text-shadow: 1px 3px #ffd342; }
+  
+.title-4 {
+    color: #fff;
+    text-shadow: 1px 3px #000; }
+  
+.btnCerrar {
+    margin-top: 480px;
+    background: #00c9bd; 
+}
+.btnCerrar:hover {
+    background: #2c3e50;
+    color: #fff;
+    border: 3px solid #00c9bd; 
+}

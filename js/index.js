@@ -57,6 +57,33 @@ const animacion =  new Typed('.multiple-text', {
 
 
 /* CERTIFICADOS */
+const botonCertificados = document.getElementById('certificados')
+const verCertificados = document.querySelector('.seccion-certificados');
+const sobreMi = document.getElementById('sobremi');
+
+const botonesCerrar = document.querySelectorAll('.carousel-caption button');
+
+
+
+botonCertificados.addEventListener('click', () => {
+    sobreMi.style.display = 'none';
+    verCertificados.style.display = 'block';
+})
+
+botonesCerrar.forEach(button => {
+    button.addEventListener('click', () => {
+        sobreMi.style.display = 'flex';
+        verCertificados.style.display = 'none';
+        
+    })
+})
+
+
+
+
+
+
+
 /* document.getElementById('certificados').addEventListener('click', function() {
 
     var certificados = ['./img/Desarrollo Web.png']
